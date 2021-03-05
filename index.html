@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Stick&display=swap"
+      rel="stylesheet"
+    />
+    <title>ToDo</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="page-banner">
+          <h1 class="title">My ToDo List</h1>
+          <p>Make Your Life Hassle Free</p>
+          <form id="search-list">
+            <input type="text" placeholder="Search Task..." />
+          </form>
+        </div>
+      </header>
+      <div id="work-list">
+        <h2 class="title">Things To Do</h2>
+        <ul>
+          <li>
+            <span class="name">Wake Up At 7.00AM</span>
+            <span class="delete">Delete</span>
+          </li>
+        </ul>
+      </div>
+      <form id="add-task">
+        <input type="checkbox" id="hide" />
+        <label for="hide">Hide All Task</label>
+        <input type="text" id="adddingTaks" placeholder="Add New Task..." />
+        <button>Add</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
