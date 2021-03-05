@@ -32,6 +32,8 @@ form.addEventListener('submit',function(event){
     deleteButton.textContent = "Delete";
     bookName.setAttribute('class','name');
     deleteButton.setAttribute('class','delete');
+    let checkDisplay = document.querySelector('#work-list');
+    checkDisplay.style.display = 'block';
     document.forms['add-task'].reset()
 });
 
