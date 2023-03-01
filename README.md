@@ -19,8 +19,8 @@ A simple web app where you set create and delete task.
 ## Preview
 
 <p align="center">
-  <a href="https://blog.nurriyad.xyz" target="_blank">
-    <img width="1090" src="./screenshort.png">
+  <a href="https://nurriyad.github.io/vanilla-todos/" target="_blank">
+    <img width="1090" src="./preview/screenshort.png">
     <br>
     Live Demo
   </a>
